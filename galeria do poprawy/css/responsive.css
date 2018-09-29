@@ -1,0 +1,33 @@
+/*laptop*/
+@media all and (max-width: 1200px) {}
+
+/*tablet*/
+@media all and (max-width: 992px) {
+    figure {
+        width: 49%;
+
+    }
+
+    #gallery {
+        width: 80%;
+    }
+}
+
+/*tablety i telefony*/
+@media all and (max-width: 768px) {
+
+    figure {
+        width: 100%;
+
+    }
+}
+
+/*smarthpohny*/
+@media all and (max-width: 480px) {
+        #gallery {
+        width: 100%;
+    }
+}
+
+/*media for iphon in google*/
+/*DPR device pixel ratio*/
